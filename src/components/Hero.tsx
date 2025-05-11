@@ -22,13 +22,12 @@ const Hero: React.FC = () => {
                 Dr. Stefan Lueder
               </h1>
               <h2 className="text-xl md:text-2xl text-gray-600 mb-8">
-                Historian of Modern European Intellectual History
+                Historian of the Himalaya and South Asia
               </h2>
               <p className="text-lg text-gray-700 mb-10 leading-relaxed">
-                I am a historian specializing in the intellectual and cultural history of modern Europe, 
-                with a particular focus on Germany and Central Europe in the 19th and 20th centuries. 
-                My research explores the intersection of philosophy, politics, and social movements.
-              </p>
+                I am a historian specializing in the globally entangeled histories of the Himalaya and South Asia in the long 19th century. 
+                My research bridges regional and global history, informed by political sciences and sociology, as well as media and cultural studies.
+              </p> 
               <div className="flex justify-center md:justify-start space-x-4">
                 <a 
                   href="#research" 

@@ -20,32 +20,29 @@ const Research: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="font-serif text-3xl md:text-4xl text-blue-900 mb-4">Research Interests</h2>
           <p className="max-w-3xl mx-auto text-gray-600">
-            My academic work encompasses several interconnected areas of historical inquiry, examining how ideas shape social and political developments.
+            My academic work encompasses several interconnected areas of historical inquiry:
           </p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
           <ResearchItem
-            icon={<FileText size={48} />}
-            title="Intellectual History"
-            description="Studying the evolution of philosophical and political thought in modern Europe, with emphasis on democratic theory and critique."
+            title="Regional History"
+            description="Studying Himalayan and South Asian Histories."
           />
           <ResearchItem
-            icon={<BookOpen size={48} />}
-            title="Cultural Movements"
-            description="Analyzing the relationship between intellectual currents and cultural expressions, particularly in literature and the arts."
+            title="Global History"
+            description="Exploring global dimensions and connections between the Himalayas, South Asia and the rest of the world"
           />
           <ResearchItem
-            icon={<Globe size={48} />}
-            title="Transnational History"
-            description="Investigating knowledge circulation and intellectual networks across European borders during periods of political transformation."
+            title="Entangled History"
+            description="Investigating circulation, networks and interdependencies across borders and continents"
           />
         </div>
         
         <div className="mt-16 text-center">
           <h3 className="font-serif text-2xl text-blue-900 mb-6">Current Project</h3>
           <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-sm">
-            <h4 className="font-serif text-xl mb-4 text-gray-800">The Transformation of Political Thought in Central Europe, 1848-1918</h4>
+            <h4 className="font-serif text-xl mb-4 text-gray-800">Global Intellectual History from the Margins: The Voyage, Vocation, and Vision of Jaya Prithvi Bahadur Singh</h4>
             <p className="text-gray-600 mb-6">
               This project examines how revolutionary movements, institutional reforms, and emerging social theories reshaped political discourse in the German-speaking lands during a period of rapid industrialization and nation-building.
             </p>
