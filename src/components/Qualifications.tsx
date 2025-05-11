@@ -12,24 +12,21 @@ interface Achievement {
 const achievements: Achievement[] = [
   {
     id: 1,
-    year: "2015",
-    title: "Ph.D. in Modern European History",
-    institution: "University of Oxford",
-    description: "Dissertation: 'Democratic Thought and Political Culture in Germany, 1848-1918'"
+    year: "2024",
+    title: "Ph.D. in South Asian Studies",
+    institution: "Humboldt-University Berlin, Institute for Asian- and African Studies",
+    description: "summe cum laude"
   },
   {
     id: 2,
-    year: "2011",
-    title: "M.Phil. in Modern European History",
-    institution: "University of Cambridge",
-    description: "Thesis on intellectual networks in post-war Europe"
-  },
+    year: "2015",
+    title: "M.A. Modern South and Southeast Asian Studies",
+    institution: "Humboldt-University Berlin, Institute for Asian- and African Studies"},
   {
     id: 3,
-    year: "2009",
-    title: "B.A. in History and Political Science",
-    institution: "Ludwig Maximilian University of Munich",
-    description: "Graduated summa cum laude"
+    year: "2012",
+    title: "B.A. Area Studies of Asia and Africa",
+    institution: "Humboldt-University Berlin, Institute for Asian- and African Studies",
   }
 ];
 
@@ -54,7 +51,7 @@ const Qualifications: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="font-serif text-3xl md:text-4xl text-blue-900 mb-4">Qualifications & Experience</h2>
           <p className="max-w-3xl mx-auto text-gray-600">
-            Academic credentials and professional achievements in the field of European history.
+            Academic credentials and professional achievements.
           </p>
         </div>
 
@@ -73,20 +70,6 @@ const Qualifications: React.FC = () => {
 
           <div>
             <div>
-              <div className="flex items-center mb-6">
-                <Award className="h-8 w-8 text-blue-900 mr-3" />
-                <h3 className="font-serif text-2xl text-blue-900">Honors & Awards</h3>
-              </div>
-              <div className="space-y-4 mb-12">
-                <div className="p-4 bg-blue-50 rounded-lg">
-                  <h4 className="font-serif text-lg text-gray-800 mb-2">Fritz Stern Dissertation Prize</h4>
-                  <p className="text-gray-600">German Historical Institute, 2016</p>
-                </div>
-                <div className="p-4 bg-blue-50 rounded-lg">
-                  <h4 className="font-serif text-lg text-gray-800 mb-2">DAAD Research Fellowship</h4>
-                  <p className="text-gray-600">German Academic Exchange Service, 2013-2014</p>
-                </div>
-              </div>
             </div>
 
             <div>
@@ -96,18 +79,22 @@ const Qualifications: React.FC = () => {
               </div>
               <div className="space-y-4">
                 <div className="p-4 bg-blue-50 rounded-lg">
-                  <h4 className="font-serif text-lg text-gray-800 mb-2">Associate Professor of History</h4>
-                  <p className="text-gray-600">Current Position, Since 2019</p>
+                  <h4 className="font-serif text-lg text-gray-800 mb-2">Assistant Professor, Department of History, South Asia Institute, Heidelberg University</h4>
+                  <p className="text-gray-600">Current Position, Since April 2025</p>
                 </div>
                 <div className="p-4 bg-blue-50 rounded-lg">
-                  <h4 className="font-serif text-lg text-gray-800 mb-2">Assistant Professor of History</h4>
-                  <p className="text-gray-600">2015-2019</p>
+                  <h4 className="font-serif text-lg text-gray-800 mb-2">Science Communications Specialist</h4>
+                  <p className="text-gray-600">Research Campus Central Hessen, January 2023 - March 2025</p>
+                </div>
+                <div className="p-4 bg-blue-50 rounded-lg">
+                  <h4 className="font-serif text-lg text-gray-800 mb-2">Managing Editor HIMALAYA</h4>
+                  <p className="text-gray-600">Association for Nepal and Himalayan Studies, 2021 - 2024</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
+        <div>
         <div className="text-center mt-12">
           <a
             href="#contact"
@@ -117,7 +104,40 @@ const Qualifications: React.FC = () => {
           </a>
         </div>
       </div>
+      </div>
+      <div className="text-center mb-16">
+         
+          <p className="max-w-3xl mx-auto text-gray-600">
+          </p>
+        </div>
+
+
+        <div className="flex items-center mb-6">
+                <Award className="h-8 w-8 text-blue-900 mr-3" />
+                <h3 className="font-serif text-2xl text-blue-900">Honors & Awards</h3>
+              </div>
+              <div className="space-y-4 mb-12">
+                <div className="p-4 bg-blue-50 rounded-lg">
+                  <h4 className="font-serif text-lg text-gray-800 mb-2">PhD Scholarship, 2017-2021</h4>
+                  <p className="text-gray-600">Studienstiftung des deutschen Volkes, </p>
+                </div>
+                <div className="p-4 bg-blue-50 rounded-lg">
+                  <h4 className="font-serif text-lg text-gray-800 mb-2">Dor Bahadur Bista Award 2019 </h4>
+                  <p className="text-gray-600">Association for Nepal and Himalayan Studies</p>
+                </div>
+                <div className="p-4 bg-blue-50 rounded-lg">
+                  <h4 className="font-serif text-lg text-gray-800 mb-2">ERASMUS Scholarship, 2013-2014 </h4>
+                  <p className="text-gray-600">Studies abroad at University of Vienna, Austria</p>
+                </div>
+                <div className="p-4 bg-blue-50 rounded-lg">
+                  <h4 className="font-serif text-lg text-gray-800 mb-2">DAAD Scholarship, 2011-2012 </h4>
+                  <p className="text-gray-600">Studies abroad at Kathmandu University, Nepal</p>
+                </div>
+              </div>
+        
+        
     </section>
+
   );
 };
 
