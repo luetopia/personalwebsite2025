@@ -14,40 +14,47 @@ interface Publication {
 const publications: Publication[] = [
   {
     id: 1,
-    title: "Intellectual Networks and Democratic Theory: Transnational Exchange in Post-War Europe",
-    publisher: "Oxford University Press",
-    year: 2023,
+    title: "Staatsbildung und Legitimation im Himalaya: Eine Verflechtungsgeschichte des Gorkhā-Staates im überlangen 19. Jahrhundert",
+    publisher: "Springer",
+    year: 2024,
     type: 'book'
   },
   {
     id: 2,
-    title: "Rethinking the Public Sphere: German Intellectuals and Civil Society, 1871-1918",
-    journal: "Journal of Modern European History",
-    year: 2022,
+    title: "Review of: Bajracharya, Manik (Hrsg.): Slavery and Unfree Labour in Nepal. Documents from the 18th to Early 20th Century.",
+    journal: "H-Soz-Kult",
+    year: 2023,
     type: 'article'
   },
   {
     id: 3,
-    title: "Crisis of Liberalism? Political Thought in the Weimar Republic",
-    journal: "History of Political Thought",
-    year: 2021,
+    title: "Review of Hindu Kingship Rituals: Power Relation and Historical Revolution by Nawaraj Chaulagain.",
+    journal: "HIMALAYA - The Journal of the Association for Nepal and Himalayan Studies, 42(1), 169-172.",
+    year: 2023,
     type: 'article',
-    coauthors: "with Dr. Maria Schmidt"
   },
   {
     id: 4,
-    title: "The Legacy of 1848: Democratic Movements and Constitutional Reform",
-    publisher: "Cambridge University Press",
-    year: 2020,
-    type: 'chapter'
+    title: "Of Education, Humanism and Civilizational Progress: An Explorative Study of Jaya Prithvi Bahadur Singh s Life and Work from the Perspective of Global Intellectual History",
+    journal: "HIMALAYA - The Journal of the Association for Nepal and Himalayan Studies, 40(1), 59-78",
+    year: 2021,
+    type: 'article'
   },
   {
     id: 5,
-    title: "Theorizing Democracy: German Political Thought in Comparative Perspective",
-    journal: "German Studies Review",
-    year: 2019,
+    title: "»Globaler Süden« in der Wissenschaft",
+    journal: "Forum Wissenschaft 38 (3), p. 4-7",
+    year: 2021,
+    type: 'article'
+  },
+  {
+    id: 6,
+    title: "»Grenzen wissenschaftlicher Erkenntnis – Wissensproduktion und Wissensdiskurse um Ethnizität in Nepal",
+    journal: "Südasien – Chronik / South Asia – Chronicle 3, p. 242 – 270",
+    year: 2013,
     type: 'article'
   }
+  
 ];
 
 const PublicationItem: React.FC<{ publication: Publication }> = ({ publication }) => {

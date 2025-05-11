@@ -44,10 +44,10 @@ const Research: React.FC = () => {
           <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-sm">
             <h4 className="font-serif text-xl mb-4 text-gray-800">Global Intellectual History from the Margins: The Voyage, Vocation, and Vision of Jaya Prithvi Bahadur Singh</h4>
             <p className="text-gray-600 mb-6">
-              This project examines how revolutionary movements, institutional reforms, and emerging social theories reshaped political discourse in the German-speaking lands during a period of rapid industrialization and nation-building.
+            In my current research project, I examine the intellectual legacy of Jaya Prithvi Bahadur Singh, a late 19th-century Gorkhā prince who renounced his aristocratic privilege to become a philosopher and peace activist in the early 20th century.
             </p>
             <p className="text-gray-600">
-              Through archival research in multiple countries and close analysis of published works, I trace the development of key concepts that would later shape European political systems in the 20th century.
+            Through Singh's extraordinary life trajectory, this study reconceptualizes the relationship between Himalayan, South Asian, and global intellectual history, challenging conventional, Western-centric narratives of knowledge production and circulation.
             </p>
           </div>
         </div>
