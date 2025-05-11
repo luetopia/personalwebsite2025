@@ -22,12 +22,13 @@ const Hero: React.FC = () => {
                 Dr. Stefan Lueder
               </h1>
               <h2 className="text-xl md:text-2xl text-gray-600 mb-8">
-                Historian of the Himalaya and South Asia
+              Assistant Professor | Department of History | South Asia Institute | Heidelberg University
               </h2>
               <p className="text-lg text-gray-700 mb-10 leading-relaxed">
                 I am a historian specializing in the globally entangeled histories of the Himalaya and South Asia in the long 19th century. 
                 My research bridges regional and global history, informed by political sciences and sociology, as well as media and cultural studies.
               </p> 
+             
               <div className="flex justify-center md:justify-start space-x-4">
                 <a 
                   href="#research" 

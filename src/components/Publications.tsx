@@ -49,7 +49,7 @@ const publications: Publication[] = [
   },
   {
     id: 6,
-    title: "»Grenzen wissenschaftlicher Erkenntnis – Wissensproduktion und Wissensdiskurse um Ethnizität in Nepal",
+    title: "Grenzen wissenschaftlicher Erkenntnis – Wissensproduktion und Wissensdiskurse um Ethnizität in Nepal",
     journal: "Südasien – Chronik / South Asia – Chronicle 3, p. 242 – 270",
     year: 2013,
     type: 'article'

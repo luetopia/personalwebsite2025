@@ -12,32 +12,19 @@ interface Course {
 const courses: Course[] = [
   {
     id: 1,
-    code: "HIST 3250",
-    title: "Modern European Intellectual History",
-    description: "Survey of major intellectual movements in Europe from the Enlightenment to the present, examining their historical context and lasting influence.",
-    level: "Undergraduate"
+    code: "SAI-S-4007",
+    title: "	Die unsichtbaren Fäden der Macht - Legitimation in der Geschichte Südasiens",
+    description: "Discover how South Asian elites have established and justified their power from early kingdoms to the present. This course equips students with critical tools to analyze historical and contemporary strategies of legitimation-deepening their understanding of both South Asian history and today’s global political challenges.",
+    level: "undergraduate and graduate"
   },
   {
     id: 2,
-    code: "HIST 4150",
-    title: "German History, 1848-1945",
-    description: "Political, social, and cultural developments in the German-speaking lands from the revolutions of 1848 through the end of World War II.",
-    level: "Undergraduate"
+    code: "SAI-Ü-4004",
+    title: "Fremde Welten, deutsche Blicke - Reiseberichte im langen 19. Jahrhundert",
+    description: "Explore the “long 19th century” through the eyes of German-speaking travelers who visited South Asia and the Himalayas and left behind fascinating travel reports that were also shaped by colonial thought patterns. In this course, you will critically analyze original sources, learn basic methods of source criticism and gain insights into the complex relationships between Europe and South Asia.",
+    level: "undergraduate and graduate"
   },
-  {
-    id: 3,
-    code: "HIST 5530",
-    title: "Seminar: Democracy and Its Critics",
-    description: "Advanced analysis of democratic theory and practice in modern Europe, with emphasis on challenges to democratic institutions and ideals.",
-    level: "Graduate"
-  },
-  {
-    id: 4,
-    code: "HIST 5620",
-    title: "Research Methods in Intellectual History",
-    description: "Discussion of methodological approaches and archival sources for the study of intellectual history, with practical research exercises.",
-    level: "Graduate"
-  }
+  
 ];
 
 const CourseItem: React.FC<{ course: Course }> = ({ course }) => {
@@ -70,7 +57,7 @@ const Teaching: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="font-serif text-3xl md:text-4xl text-blue-900 mb-4">Teaching</h2>
           <p className="max-w-3xl mx-auto text-gray-600">
-            I regularly teach courses in European history and historical methods at both undergraduate and graduate levels.
+            I regularly teach courses in South Asian and Himalayan History at both undergraduate and graduate levels.
           </p>
         </div>
         
@@ -81,14 +68,13 @@ const Teaching: React.FC = () => {
           <div className="max-w-lg">
             <h3 className="font-serif text-2xl text-blue-900 mb-2">Teaching Philosophy</h3>
             <p className="text-gray-600">
-              My approach to teaching history emphasizes critical engagement with primary sources, 
-              contextual understanding, and connecting historical developments to contemporary issues.
+            My teaching philosophy emphasizes active learning, critical thinking, and inclusive participation. Drawing on my special training in “Inquiry-Based Learning,” I am particularly committed to creating a learning environment where students feel empowered to voice their ideas and engage in thoughtful discussions by engaging in their own small-scale research projects.
             </p>
           </div>
         </div>
         
         <div className="max-w-3xl mx-auto">
-          <h3 className="font-serif text-2xl text-blue-900 mb-6 text-center">Current Courses</h3>
+          <h3 className="font-serif text-2xl text-blue-900 mb-6 text-center">Current Courses - Summer semester 2025</h3>
           {courses.map(course => (
             <CourseItem key={course.id} course={course} />
           ))}
