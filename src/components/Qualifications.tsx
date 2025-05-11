@@ -110,30 +110,6 @@ const Qualifications: React.FC = () => {
           <p className="max-w-3xl mx-auto text-gray-600">
           </p>
         </div>
-
-
-        <div className="flex items-center mb-6">
-                <Award className="h-8 w-8 text-blue-900 mr-3" />
-                <h3 className="font-serif text-2xl text-blue-900">Honors & Awards</h3>
-              </div>
-              <div className="space-y-4 mb-12">
-                <div className="p-4 bg-blue-50 rounded-lg">
-                  <h4 className="font-serif text-lg text-gray-800 mb-2">PhD Scholarship, 2017-2021</h4>
-                  <p className="text-gray-600">Studienstiftung des deutschen Volkes, </p>
-                </div>
-                <div className="p-4 bg-blue-50 rounded-lg">
-                  <h4 className="font-serif text-lg text-gray-800 mb-2">Dor Bahadur Bista Award 2019 </h4>
-                  <p className="text-gray-600">Association for Nepal and Himalayan Studies</p>
-                </div>
-                <div className="p-4 bg-blue-50 rounded-lg">
-                  <h4 className="font-serif text-lg text-gray-800 mb-2">ERASMUS Scholarship, 2013-2014 </h4>
-                  <p className="text-gray-600">Studies abroad at University of Vienna, Austria</p>
-                </div>
-                <div className="p-4 bg-blue-50 rounded-lg">
-                  <h4 className="font-serif text-lg text-gray-800 mb-2">DAAD Scholarship, 2011-2012 </h4>
-                  <p className="text-gray-600">Studies abroad at Kathmandu University, Nepal</p>
-                </div>
-              </div>
         
         
     </section>

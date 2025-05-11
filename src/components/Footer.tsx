@@ -12,40 +12,28 @@ const Footer: React.FC = () => {
               <span className="font-serif text-xl font-bold text-white">Dr. Stefan Lueder</span>
             </div>
             <p className="text-sm text-gray-400 mb-4">
-              Historian of Modern European Intellectual History
+            Assistant Professor | Department of History | South Asia Institute | Heidelberg University
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:contact@stefanlueder.edu" className="text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:contact@stefanlueder.com" className="text-gray-400 hover:text-white transition-colors">
                 <Mail size={20} />
               </a>
             </div>
           </div>
           
           <div>
-            <h3 className="font-serif text-lg text-white mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li><a href="#about" className="hover:text-white transition-colors">About</a></li>
-              <li><a href="#research" className="hover:text-white transition-colors">Research</a></li>
-              <li><a href="#publications" className="hover:text-white transition-colors">Publications</a></li>
-              <li><a href="#teaching" className="hover:text-white transition-colors">Teaching</a></li>
-              <li><a href="#contact" className="hover:text-white transition-colors">Contact</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="font-serif text-lg text-white mb-4">Office Hours</h3>
-            <p className="mb-2">Monday & Wednesday: 2:00 PM - 4:00 PM</p>
-            <p className="mb-2">Or by appointment</p>
+            <h3 className="font-serif text-lg text-white mb-4">Office</h3>
+            
             <p className="text-sm text-gray-400">
-              History Department<br />
-              University Hall, Room 305<br />
-              123 University Drive
+              Heidelberg University<br />
+              South Asia Institute<br />
+              Department of History <br />
+              Voßstr. 2<br />
+              69115 Heidelberg<br />
+              Germany
             </p>
           </div>
         </div>
