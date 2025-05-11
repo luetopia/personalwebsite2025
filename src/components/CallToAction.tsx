@@ -12,7 +12,7 @@ const CallToAction: React.FC = () => {
           </p>
           
           <a 
-            href="mailto:contact@stefanlueder.com" 
+            target="_blank" href="mailto:contact@stefanlueder.com" 
             className="inline-block px-8 py-4 bg-white text-blue-900 rounded-md font-medium hover:bg-blue-100 transition-colors duration-300"
           >
             Contact Me
