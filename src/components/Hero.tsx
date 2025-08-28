@@ -11,7 +11,11 @@ const Hero: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-xl flex-shrink-0 border-4 border-white">
               <img 
-                src="Portrait Stefan Lueder_website.webp" 
+                src="Portrait Stefan Lueder_website.webp"
+                loading="eager"
+                fetchpriority="high"
+                width="256"
+                height="256"
                 alt="Dr. Stefan Lueder"
                 className="w-full h-full object-cover"
               />

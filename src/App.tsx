@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import { preloadCriticalResources, optimizeFontLoading } from './utils/lazyLoad';
+import LazySection from './components/LazySection';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Research from './components/Research';
@@ -10,6 +12,10 @@ import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
+    // Preload critical resources
+    preloadCriticalResources();
+    optimizeFontLoading();
+    
     const handleHashChange = () => {
       const hash = window.location.hash;
       if (hash) {
@@ -40,11 +46,21 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <Research />
-        <Publications />
-        <Teaching />
-        <Qualifications />
-        <CallToAction />
+        <LazySection>
+          <Research />
+        </LazySection>
+        <LazySection>
+          <Publications />
+        </LazySection>
+        <LazySection>
+          <Teaching />
+        </LazySection>
+        <LazySection>
+          <Qualifications />
+        </LazySection>
+        <LazySection>
+          <CallToAction />
+        </LazySection>
       </main>
       <Footer />
     </div>

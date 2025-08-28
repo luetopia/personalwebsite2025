@@ -1,4 +1,5 @@
 import React from 'react';
+import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 interface Publication {
   id: number;
@@ -58,6 +59,11 @@ const publications: Publication[] = [
 ];
 
 const PublicationItem: React.FC<{ publication: Publication }> = ({ publication }) => {
+  const { targetRef, isIntersecting } = useIntersectionObserver({
+    threshold: 0.1,
+    rootMargin: '50px'
+  });
+
   const renderCitation = () => {
     const { title, journal, publisher, year, coauthors, type } = publication;
     
@@ -86,7 +92,13 @@ const PublicationItem: React.FC<{ publication: Publication }> = ({ publication }
   };
 
   return (
-    <div className="mb-6 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+    <div 
+      ref={targetRef}
+      className={`mb-6 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 ${
+        isIntersecting ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+      }`}
+      style={{ transition: 'opacity 0.6s ease-out, transform 0.6s ease-out' }}
+    >
       {renderCitation()}
     </div>
   );
